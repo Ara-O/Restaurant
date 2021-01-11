@@ -20,6 +20,10 @@ body {
   font-size: 16px;
 }
 
+.navigation li:hover {
+  text-decoration: underline;
+}
+
 .foodlogo {
   float: left;
   margin: 34px 61px;
@@ -65,5 +69,31 @@ body {
 .arrangebutton button {
   padding: 18px 38px;
   border-style: none;
-  background: white;
+  background: #fffffffc;
+  border-radius: 3px;
+  font-weight: bold;
+  color: black;
+}
+
+.sectioncontainer {
+  background-color: white;
+  height: 370px;
+  width: 100%;
+}
+
+.itemone {
+  border: solid 1px black;
+  margin-top: 20px;
+  width: 25%;
+  height: 70px;
+  margin-top: 75px;
+}
+
+.arrangeheadingtwo {
+  text-align: center;
+}
+
+.listofdishes {
+  display: flex;
+  justify-content: space-around;
 }
