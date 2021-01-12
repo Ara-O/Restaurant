@@ -21,12 +21,12 @@ body {
 }
 
 .navigation li:hover {
-  text-decoration: underline;
+  text-decoration: overline;
 }
 
 .foodlogo {
   float: left;
-  margin: 34px 61px;
+  margin: 30px 61px;
   max-width: 60px;
   min-width: 40px;
 }
@@ -54,7 +54,7 @@ body {
   color: white;
   text-align: center;
   font-weight: 500;
-  text-shadow: -2px 3px 3px black;
+  text-shadow: -2px 2px 3px black;
   font-size: 40px;
 }
 
@@ -71,22 +71,16 @@ body {
   border-style: none;
   background: #fffffffc;
   border-radius: 3px;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
   color: black;
+  font-size: 16px;
 }
 
 .sectioncontainer {
   background-color: white;
-  height: 370px;
-  width: 100%;
-}
-
-.itemone {
-  border: solid 1px black;
-  margin-top: 20px;
-  width: 25%;
-  height: 70px;
-  margin-top: 75px;
+  height: auto;
+  width: auto;
 }
 
 .arrangeheadingtwo {
@@ -95,5 +89,19 @@ body {
 
 .listofdishes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-right: 112px;
+  flex-wrap: wrap;
+}
+.listofdishes img {
+  max-width: 347px;
+}
+
+.fooditem {
+  border: solid 1px black;
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 120px;
 }
