@@ -81,6 +81,7 @@ body {
   background-color: white;
   height: auto;
   width: auto;
+  padding-bottom: 50px;
 }
 
 .arrangeheadingtwo {
@@ -92,16 +93,34 @@ body {
   justify-content: center;
   margin-right: 112px;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 .listofdishes img {
   max-width: 347px;
 }
 
+/*
+.listofdishes img {
+    max-width: 425px;
+}
+*/
+
 .fooditem {
-  border: solid 1px black;
+  border-bottom: solid 1px rgb(173, 171, 171);
   margin-top: 20px;
   width: auto;
   height: auto;
   margin-top: 75px;
   margin-left: 120px;
+}
+
+hr .itemline {
+  width: 240px;
+}
+
+.fooditem h5 {
+  font-size: 1.25rem;
+  width: 82%;
+  margin-right: -189px;
+  margin-bottom: 21px;
 }
