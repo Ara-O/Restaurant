@@ -3,9 +3,9 @@
 }
 
 body {
-  margin: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(images/chef.jpg);
+  margin-bottom: -30px;
 }
 
 .navigation {
@@ -130,7 +130,7 @@ hr .itemline {
 }
 
 .sectioncontainer2 {
-  height: 100px;
+  height: auto;
 }
 
 .arrangebutton2 {
@@ -155,4 +155,38 @@ h6:nth-child(5) {
 
 .arrangebutton2 button:hover {
   background-color: #e1e1e138;
+}
+
+h2.reviews {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  text-shadow: -2px 2px 3px black;
+  margin-top: 37px;
+}
+
+div#carouselExampleControls {
+  margin-top: 30px;
+}
+
+.reviewtext {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 34px;
+}
+
+.sectioncontainer3 {
+  background: white;
+  height: 120px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.footerlogo {
+  width: 60px;
+  z-index: 1;
 }
