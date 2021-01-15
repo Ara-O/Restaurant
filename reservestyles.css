@@ -1,0 +1,38 @@
+.arrangeslogan {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+
+.sectioncontainer4 {
+  background: white;
+  height: auto;
+}
+
+.reservetext {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.reservetextline {
+  width: 183px;
+  margin-left: 44%;
+}
+
+.firstrow input,
+.secondrow input,
+.lastrow input {
+  padding: 8px 150px;
+}
+
+.firstrow,
+.secondrow,
+.lastrow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 55px;
+}
+
+.lastrow {
+  padding-bottom: 60px;
+}

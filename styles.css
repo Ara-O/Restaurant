@@ -3,9 +3,10 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(images/chef.jpg);
   margin-bottom: -30px;
+  background-repeat: no-repeat;
 }
 
 .navigation {
@@ -131,6 +132,9 @@ hr .itemline {
 
 .sectioncontainer2 {
   height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/chef.jpg);
+  background-position-y: -564px;
 }
 
 .arrangebutton2 {
@@ -161,7 +165,7 @@ h2.reviews {
   font-size: 38px;
   color: white;
   text-align: center;
-  text-shadow: -2px 2px 3px black;
+  text-shadow: -2px 1px 3px black;
   margin-top: 37px;
 }
 
@@ -179,7 +183,7 @@ div#carouselExampleControls {
 }
 
 .sectioncontainer3 {
-  background: white;
+  background: rgb(20, 20, 20, 0);
   height: 120px;
   justify-content: space-around;
   display: flex;
@@ -189,4 +193,17 @@ div#carouselExampleControls {
 .footerlogo {
   width: 60px;
   z-index: 1;
+}
+
+.logo {
+  max-width: 22px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  text-decoration: none;
+  color: white;
 }
