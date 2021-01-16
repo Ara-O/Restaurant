@@ -22,7 +22,7 @@
 .firstrow input,
 .secondrow input,
 .lastrow input {
-  padding: 8px 150px;
+  padding: 11px 30%;
 }
 
 .firstrow,
@@ -30,9 +30,14 @@
 .lastrow {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 55px;
+  margin-top: 3%;
+  flex-wrap: wrap;
 }
 
 .lastrow {
   padding-bottom: 60px;
+}
+
+form h5 {
+  font-size: 18px;
 }
