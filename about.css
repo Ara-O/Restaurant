@@ -1,0 +1,44 @@
+.aboutussection {
+  height: auto;
+  padding-bottom: 150px;
+  background-color: white;
+}
+
+.aboutustext {
+  padding-left: 13%;
+  padding-right: 13%;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.staff {
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.ourteam {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ourteam h3 {
+  font-size: 20px;
+}
+
+.ourteam h4 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.ourteam div {
+  padding: 0px 80px;
+}
+
+body {
+  background-repeat: repeat;
+}
