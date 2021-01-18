@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
   <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -39,9 +37,9 @@
         </div>
         <div class="navigationbar">
           <ul class="navigation">
-            <li><a href="index.html"> Home</a></li>
+            <li><a href="index.html"> Home</a></li>  
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="reservepage.html">Reserve</a></li>
-            <li>Menu</li>
             <li>About us</li>
           </ul>
         </div>
@@ -56,37 +54,74 @@
 
         <div class="form">
           <form>
+            <!-- first row -->
             <div class="firstrow">
               <label for="firstname">
                 <h5>First name</h5>
-                <input type="text" name="name" id="firstname" />
+                <input type="text" name="firstname" id="firstname" />
               </label>
               <label for="lastname">
                 <h5>Last name</h5>
-                <input type="text" name="name" id="lastname" />
+                <input type="text" name="lastname" id="lastname" />
               </label>
             </div>
-
+            <!-- second row -->
             <div class="secondrow">
               <label for="email">
                 <h5>Email</h5>
-                <input type="text" name="name" id="email" />
+                <input type="email" name="email" id="email" />
               </label>
-              <label for="viewchoice">
+              <!-- third row -->
+              <label for="viewchoice" class="view">
                 <h5>View Choice:</h5>
-                <input type="text" name="name" id="viewchoice" />
+                <select name="choice" id="viewchoice">
+                  <option value="Henlo" selected disabled>Choose your view</option>
+                    <option value="hanh">Sea-side</option>
+                    <option value="ba">Center</option>
+                    <option value="ba">Window View</option>
+                </select>     
               </label>
             </div>
-
+            <!-- last row -->
             <div class="lastrow">
+              <label for="number" class="number">
+                <h5>Number</h5>
+                <input type="tel" name="number" id="number" />
+              </label>
+           
               <label for="extrainfo" class="extra">
                 <h5>Extra info</h5>
                 <input type="text" name="name" id="extrainfo" />
               </label>
             </div>
+
+            <div class="arrangebutton3">
+              <button class="reservationcta">Submit Reservation</button>
+            </div>
+            <br>
+            <br>
+          </div>
           </form>
+        </div>
+      </div>
+      <div class="sectioncontainer3">
+        <div>
+          <img src="images/facebooklogo.png" alt="facebook logo" class="logo" />
+        </div>
+        <div>
+          <img
+            src="/images/food.png"
+            alt="image of chef logo"
+            class="footerlogo"
+          />
+        </div>
+        <div>
+          <img
+            src="images/instagramlogo.png"
+            alt="instagram logo"
+            class="logo"
+          />
         </div>
       </div>
     </body>
   </html>
-</html>

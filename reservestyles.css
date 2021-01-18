@@ -22,7 +22,9 @@
 .firstrow input,
 .secondrow input,
 .lastrow input {
-  padding: 11px 30%;
+  width: 400px;
+  height: 50px;
+  text-align: center;
 }
 
 .firstrow,
@@ -40,4 +42,35 @@
 
 form h5 {
   font-size: 18px;
+}
+
+select#viewchoice {
+  height: 48px;
+  text-align: center;
+  width: 336px;
+  padding-left: 25%;
+  margin-right: 61px;
+}
+
+select {
+  text-align: center;
+}
+
+.arrangebutton3 {
+  margin-left: 242px;
+}
+
+.reservationcta:hover {
+  background: rgb(252, 252, 252);
+}
+
+.reservationcta {
+  background: white;
+  padding: 14px 23px;
+  border: solid 1px;
+}
+
+form {
+  padding-top: 5px;
+  padding-bottom: 19px;
 }
