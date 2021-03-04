@@ -38,7 +38,6 @@ body {
 
 .navigationbar {
   flex: 4;
-  padding-left: 20%;
 }
 
 .logocontainer {
@@ -202,6 +201,7 @@ div#carouselExampleControls {
 li a {
   text-decoration: none;
   color: white;
+  font-weight: 200;
 }
 li a:hover {
   text-decoration: none;
@@ -267,4 +267,100 @@ button a:hover {
 
 .ourteam h4 {
   font-size: 10px;
+}
+
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98));
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+  animation: fade-in 500ms forwards;
+}
+
+.overlaysection {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 203px;
+  text-shadow: -2px 2px 3px black;
+}
+
+.overlaysection a {
+  color: white;
+  text-decoration: none;
+}
+
+.overlaysection div {
+  font-size: 27px;
+  padding-top: 31px;
+}
+
+.overlaysection a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.cancelbutton {
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  color: white;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.hamburgermenu {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  right: 30px;
+  top: 20px;
+}
+.hamburgerdiv {
+  display: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animation {
+  animation: fade-in 500ms forwards;
+}
+
+@media (max-width: 1067px) {
+  .hamburgerdiv {
+    display: block;
+  }
+
+  .subslogan {
+    margin-top: 30px;
+  }
+
+  .secondtheme {
+    margin-bottom: -582px;
+  }
+
+  .ourmissiontext h4 {
+    margin: 0px 93px;
+  }
+
+  li a {
+    display: none;
+  }
+
+  .explanation {
+    padding: 0% 20%;
+  }
 }
