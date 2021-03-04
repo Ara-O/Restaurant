@@ -9,13 +9,14 @@
   padding-right: 13%;
   margin-top: 90px;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 35px;
 }
 
 .staff {
   font-size: 33px;
-  font-weight: 600;
+  font-weight: 300;
+  margin-top: 37px;
 }
 
 .ourteam {
@@ -36,9 +37,17 @@
 }
 
 .ourteam div {
-  padding: 0px 80px;
+  padding: 41px 80px;
+  border: solid 1px black;
 }
 
 body {
   background-repeat: repeat;
+}
+
+.moreaboutus {
+  font-size: 33px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -21px;
 }
